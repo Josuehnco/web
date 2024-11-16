@@ -1,0 +1,681 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+
+}
+
+.navbar-container {
+    font-family: "outfit-uniquifier";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 25px 25px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    height: 16%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*  LETRAS*/
+.navbarlogo {
+    border-radius: 100px;
+    size-adjust: 50px;
+    box-sizing: content-box;
+    width: 79px;
+    height: auto;
+    margin-left: 19px;
+    margin-top: -9px;
+}
+
+/*  LETRAS*/
+
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 21px;
+    transition: color 0.3s;
+    text-align: center;
+    border-radius: 10px;
+    padding: 91px;
+    margin-left: 29px; 
+    margin-right: 80px;
+}
+
+.navbar-menu li a:hover {
+    color: #ff0000;
+}
+.navbar-videos{
+ margin-right: -700px;
+}
+
+.navbar-user {
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-top: 10px;
+    margin-top: -10px;
+    text-align: center;
+    margin-right: 50px;
+    size: 60px;
+
+}
+
+/* Barra de Navegacion*/
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1c1e21;
+}
+.navbar-links li a:hover {
+    color: #1ab7ea;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 15px;
+}
+.signup-btn {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.signup-btn {
+    background-color: #1ab7ea;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    opacity: 0.8;
+}
+
+
+/* */
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: #f7f1f1;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 16px;
+    margin-top: -25px;
+}
+
+
+/* Barra de Navegacion*/
+
+
+
+
+/*Centro de Orientacion Grafica */
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    margin: 16px;
+    margin-top: -25px;
+    /*  */
+    color: #000000;
+    font-size: 70px;
+    padding-top: 140px;
+    text-align: center;
+
+}
+/*Centro de Orientacion Grafica */
+
+/*Carousel */
+.carusel {
+    width: 90%;
+    height: auto;
+}
+
+/*C */
+
+/*imageblooque */
+.imagenbloque1 {
+    width: 100%;
+    height: 379px;
+    margin-top: 5%;
+  
+}
+
+/*imagebloooque */
+
+
+.imagen-container {
+    position: relative;
+    display: inline-block;
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    /* Color del texto */
+    font-size: 24px;
+    /* Tamaño del texto */
+    text-align: center;
+    /* Opcional: añadir sombra para mejor legibilidad */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.road-rage-regular {
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 95%;
+    font-size: 79px;
+    margin-left: 315px;
+    margin-right: 70px;
+    margin-top: 530%;
+    text-align: center;
+
+}
+.road-rage-regular-1{
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    margin-top: -9%;
+    font-size: 79px;
+    margin-left: 545px;
+   
+}
+.infoi{
+    width: 90%;
+    font-family: "Road Rage", sans-serif;
+    margin-top: -390px;
+    margin-left: 671px;
+    margin-right: 30px;
+   
+    font-size: 79px;
+   
+    text-align: center;
+
+}
+
+.imgmuetra{
+    width: 570px;
+    height:auto;
+    margin-left: 700px;
+    margin-right: 0px;
+}
+
+
+.dm-serif-text-regulare2{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 400px;
+    font-size: 31px;
+    te
+  }
+  
+  .dm-serif-text-regular-italic-2 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  
+
+.spand {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    text-align: justify;
+
+}
+
+
+.spann {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+
+}
+
+/* Subir  */
+.containeru {
+
+    margin: 50px;
+    margin-left: 80px;
+
+    max-width: 600px;
+}
+
+
+/* Subir  */
+.caption {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+.Subir {
+    right: -30%;
+    padding: -600px;
+    text-align: center;
+
+}
+
+.containerd {
+
+    margin-top: 200px;
+    margin-left: 80px;
+    max-width: 600px;
+}
+
+/*  LETRAS*/
+.pacifico-regular {
+    /*  */
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 16px;
+    margin-top: -25px;
+    /*  */
+    color: #000000;
+    font-size: 70px;
+    padding-top: 140px;
+    text-align: center;
+    margin-top: -600px;
+}
+
+.outfit-uniquifier {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 16px;
+    margin-top: -25px;
+    color: #000000;
+    font-size: 70px;
+    padding-top: 140px;
+    text-align: center;
+    margin-top: -600px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 16px;
+    margin-top: -25px;
+    color: #000000;
+    font-size: 70px;
+    padding-top: 140px;
+    text-align: center;
+    margin-top: -600px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*  Marca tu estilo */
+.scndleter {
+    text-align: center;
+    font-size: 40px;
+
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+}
+
+
+
+
+
+
+
+
+
+.info-1{
+    width: 100;
+    height: auto;
+margin-top: -60%;
+    border-left: 160px;
+    border-right: 900px;
+}
+
+
+
+
+
+
+/* Prod  */
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caption {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+}
+
+.info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    margin-left: 750px;
+    margin-top: -400px;
+
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.99);
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    margin-left: 530px;
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+/* Sube Ar */
+
+.upload-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e4e4e4;
+    width: -5px;
+}
+
+/*  Carusel size */
+
+.d-block w-100 {
+
+    width: -80%;
+    height: -50%;
+    size: 60%;
+}
+
+/*  Carusel size */
+.carusel {
+
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+/*  Carusel size */
+.carousel-control-transition {
+    opacity: 0.15s ease;
+}
+
+button:hover {
+    background-color: #fafafa65;
+}
+
+
+/* Fondo2 */
+.tabla2 {
+    position: relative;
+    width: 50%;
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contenedor-imagen {
+    position: relative;
+    width: 50%;
+    /* Ajusta el tamaño según lo necesites */
+}
+
+.texto-sobre-bloque {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Span */
+.permanent-marker-regular {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.upload-img {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    margin-left: 750px;
+    margin-top: -400px;
+
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Subir {
+    right: -30%;
+    padding: -600PX;
+    text-align: center;
+
+}
+
+/* Sube Ar */
+
+.bloque {
+    width: 100%;
+    height: 360px;
+    margin-top: 310px;
+}
+
+.es-info {
+    font-size: 15px;
+}
+
+.Contactanos {
+    background-color: #000000;
+    width: 100%;
+    height: 50%;
+    font-family: "bebas-neue-regular";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: #f7f1f1;
+}
+
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 16px;
+    margin-top: -25px;
+}
